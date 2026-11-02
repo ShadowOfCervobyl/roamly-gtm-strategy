@@ -1,0 +1,228 @@
+<title>Roamly Groups GTM</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: an internal strategy brief. Document header, then a two-column grid of sections, with a full-width booking flow strip in the middle. */
+:root{
+  --bg:#F6F8F8; --paper:#FFFFFF; --ink:#13232B; --muted:#5A6B72; --line:#DCE3E5;
+  --accent:#0B6E6A; --accent-soft:#E2F1EF; --mark:#C98A12; --mark-soft:#FBF1DC;
+  --display:"Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --body:"IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0E171B; --paper:#152227; --ink:#E6EEF0; --muted:#9AAEB4; --line:#26373D;
+  --accent:#4FC2B9; --accent-soft:#16332F; --mark:#E8B04A; --mark-soft:#33290F; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E171B; --paper:#152227; --ink:#E6EEF0; --muted:#9AAEB4; --line:#26373D;
+  --accent:#4FC2B9; --accent-soft:#16332F; --mark:#E8B04A; --mark-soft:#33290F; color-scheme:dark}
+
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.55;
+  padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px));padding-block:32px 48px}
+.doc{max-width:1040px;margin:0 auto;background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:clamp(20px,4vw,44px);display:grid;gap:32px}
+h1,h2,h3{font-family:var(--display);margin:0;text-wrap:balance;letter-spacing:-0.01em}
+h1{font-size:clamp(28px,4.4vw,40px);font-weight:700;line-height:1.1}
+h2{font-size:19px;font-weight:700}
+h3{font-size:15px;font-weight:700}
+p{margin:0}
+ul{margin:0;padding-left:18px;display:grid;gap:6px}
+.label{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+
+/* header */
+.head{display:grid;gap:14px;border-bottom:2px solid var(--ink);padding-bottom:24px}
+.meta{display:flex;flex-wrap:wrap;gap:8px 24px}
+.meta div{display:grid;gap:2px}
+.meta b{font-weight:500;font-size:14px}
+.status{display:inline-block;background:var(--mark-soft);color:var(--mark);font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border-radius:3px;font-weight:500}
+.thesis{font-size:18px;max-width:62ch;color:var(--ink)}
+.thesis em{font-style:normal;color:var(--accent);font-weight:600}
+
+/* grid */
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 40px}
+.sec{display:grid;gap:12px;align-content:start;min-width:0}
+.sec > .label{border-top:1px solid var(--line);padding-top:12px}
+.full{grid-column:1/-1}
+
+.who{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.who div{background:var(--accent-soft);border-radius:4px;padding:14px;display:grid;gap:4px}
+.who strong{font-family:var(--display);font-size:17px;color:var(--accent)}
+.vp{font-family:var(--display);font-size:20px;font-weight:500;line-height:1.3;border-left:3px solid var(--accent);padding-left:14px}
+
+/* flow */
+.flow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;counter-reset:step;border:1px solid var(--line);border-radius:4px;overflow:hidden}
+.flow li{list-style:none;padding:14px 16px;display:grid;gap:4px;align-content:start;border-right:1px solid var(--line);counter-increment:step}
+.flow li:last-child{border-right:0}
+.flow li::before{content:"Step " counter(step);font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.flow .loop{background:var(--mark-soft)}
+.flow .loop::after{content:"Acquisition loop";font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--mark);font-weight:500;margin-top:4px}
+.flow p{color:var(--muted);font-size:14px}
+.flow ol{margin:0;padding:0;display:contents}
+
+/* channels */
+.ch{display:grid;gap:10px;margin:0;padding:0;list-style:none}
+.ch li{display:grid;grid-template-columns:110px minmax(0,1fr);gap:12px;align-items:baseline}
+.ch li b{font-weight:600;font-size:14px}
+.note{font-size:13px;color:var(--muted)}
+
+/* metrics */
+.metrics{display:grid;gap:10px}
+.m{display:grid;grid-template-columns:96px minmax(0,1fr);gap:12px;align-items:baseline;padding-bottom:10px;border-bottom:1px dashed var(--line)}
+.m:last-child{border-bottom:0;padding-bottom:0}
+.m.star b{color:var(--accent)}
+.tag{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.m.star .tag{color:var(--accent);font-weight:500}
+
+/* rollout */
+.roll{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;margin:0;padding:0;list-style:none;counter-reset:r}
+.roll li{counter-increment:r;border-top:3px solid var(--accent);padding-top:8px;font-size:14px;display:grid;gap:2px;align-content:start}
+.roll li::before{content:counter(r);font-family:var(--mono);font-size:12px;color:var(--accent);font-weight:500}
+
+.risk li::marker{color:var(--mark)}
+.team{display:flex;flex-wrap:wrap;gap:6px}
+.team span{border:1px solid var(--line);border-radius:3px;padding:3px 9px;font-size:13px}
+.foot{border-top:1px solid var(--line);padding-top:14px;font-size:13px;color:var(--muted)}
+
+@media (max-width:760px){
+  .grid,.who{grid-template-columns:minmax(0,1fr)}
+  .flow{grid-template-columns:minmax(0,1fr)}
+  .flow li{border-right:0;border-bottom:1px solid var(--line)}
+  .flow li:last-child{border-bottom:0}
+  .roll{grid-template-columns:minmax(0,1fr)}
+  .ch li,.m{grid-template-columns:minmax(0,1fr);gap:2px}
+}
+</style>
+
+<article class="doc">
+  <header class="head">
+    <span class="label">Roamly · Internal · Go-to-market</span>
+    <h1>Roamly Groups: V1 GTM Strategy</h1>
+    <p class="thesis">Groups already try to book together on Roamly and drop off. We will <em>turn those groups into completed bookings</em>, and every invited member into a new Roamly user.</p>
+    <div class="meta">
+      <div><span class="label">Owner</span><b>Martin Cervenka, Senior PM</b></div>
+      <div><span class="label">Audience</span><b>Groups GTM working team</b></div>
+      <div><span class="label">Updated</span><b>November 2026</b></div>
+      <div><span class="label">Status</span><span class="status">V1 draft</span></div>
+    </div>
+  </header>
+
+  <div class="grid">
+    <section class="sec">
+      <span class="label">The problem</span>
+      <h2>Groups book around the product, then give up</h2>
+      <p>Roamly is built for individuals and small parties. Groups book the same experience across separate accounts, split payments by hand and sync availability outside the product. Many drop off. We lose bookings from people who already want to buy.</p>
+    </section>
+
+    <section class="sec">
+      <span class="label">Signals</span>
+      <h2>The demand is already in our data</h2>
+      <ul>
+        <li>High drop-off on group booking sessions</li>
+        <li>Repeated support reports of multi-account bookings and manual payment splits</li>
+        <li>Consistent feedback: users want to do this on Roamly</li>
+      </ul>
+      <p class="note">To validate: share of sessions with multi-account behaviour, typical group size, group vs. individual drop-off.</p>
+    </section>
+
+    <section class="sec">
+      <span class="label">Who we serve</span>
+      <h2>Friend and family groups bigger than a small party</h2>
+      <div class="who">
+        <div><strong>The group decides</strong><span>Where to go, whether the price is worth it, which host.</span></div>
+        <div><strong>The organiser brings it in</strong><span>Starts planning and shares the link. Our way in.</span></div>
+      </div>
+      <p class="note">Later: corporate teams. They pay centrally and need a sales motion.</p>
+    </section>
+
+    <section class="sec">
+      <span class="label">Value proposition</span>
+      <h2>What we promise</h2>
+      <p class="vp">Plan it together, agree in one place, and everyone pays their own share. One booking for the whole group, without the chasing.</p>
+    </section>
+
+    <section class="sec full">
+      <span class="label">How a group books</span>
+      <h2>From "let's do something" to booked, inside Roamly</h2>
+      <ol class="flow">
+        <li><h3>Organiser starts</h3><p>Picks an experience or a shortlist and creates a group.</p></li>
+        <li class="loop"><h3>Group joins</h3><p>One link in the group chat. Members see the plan and their share before signing up.</p></li>
+        <li><h3>Group agrees</h3><p>Compares options and price per person, then confirms in one place.</p></li>
+        <li><h3>Everyone pays</h3><p>Each member pays their own share. The booking confirms when all have paid.</p></li>
+      </ol>
+    </section>
+
+    <section class="sec">
+      <span class="label">Motion</span>
+      <h2>Product-led, no sales team</h2>
+      <ul>
+        <li>Demand happens inside the product, so Groups appears at the moment groups drop off.</li>
+        <li>Every booking spreads the product: invitees use Roamly before they sign up.</li>
+        <li>A consumer price point doesn't need sales in V1.</li>
+      </ul>
+    </section>
+
+    <section class="sec">
+      <span class="label">Primary goal</span>
+      <h2>Acquire new users through groups</h2>
+      <p>New Roamly users who arrive through a group invite. It only happens when the group completes its booking, so completion is the gate.</p>
+    </section>
+
+    <section class="sec">
+      <span class="label">Channels</span>
+      <h2>Where Groups shows up</h2>
+      <ul class="ch">
+        <li><b>In-product</b><span>Offer Groups when someone picks more seats than a small party, or when several accounts book the same slot.</span></li>
+        <li><b>Group link</b><span>Organiser shares one link to WhatsApp or iMessage. This is the acquisition loop.</span></li>
+        <li><b>Lifecycle</b><span>Email and push to users who already used the multi-account workaround.</span></li>
+        <li><b>Hosts</b><span>"Group-friendly" badge on experiences whose hosts opt in.</span></li>
+        <li><b>Support</b><span>Group-booking tickets are redirected to Groups.</span></li>
+      </ul>
+      <p class="note">No paid acquisition in V1.</p>
+    </section>
+
+    <section class="sec">
+      <span class="label">How we measure</span>
+      <h2>Success metric</h2>
+      <div class="metrics">
+        <div class="m star"><span class="tag">Main</span><span><b>New users per month who pay their share through a group invite</b></span></div>
+        <div class="m"><span class="tag">Gate</span><span>Group booking completion rate: groups started that end with everyone paid</span></div>
+        <div class="m"><span class="tag">Supporting</span><span>Time from first invite to fully paid · Multi-account bookings going down</span></div>
+        <div class="m"><span class="tag">Guardrails</span><span>Individual booking conversion · Host ratings · Support volume</span></div>
+      </div>
+      <p class="note">Targets set after the baseline is measured.</p>
+    </section>
+
+    <section class="sec full">
+      <span class="label">Rollout</span>
+      <h2>Prove it small, then scale</h2>
+      <ol class="roll">
+        <li>Measure the baseline</li>
+        <li>Recruit hosts who opt in to groups</li>
+        <li>Beta with existing users in a few cities</li>
+        <li>Fix payment and agreement failures</li>
+        <li>Full launch</li>
+      </ol>
+    </section>
+
+    <section class="sec">
+      <span class="label">Risks and open questions</span>
+      <h2>What could break it</h2>
+      <ul class="risk">
+        <li><b>Groups don't agree, or don't all pay.</b> Fixing payment alone won't remove drop-off at the "do we all agree?" stage.</li>
+        <li><b>Host capacity.</b> Can an experience built for 6 take 14, and at what price?</li>
+        <li><b>Group size threshold.</b> Where does a "small party" end? To be set from booking data.</li>
+      </ul>
+    </section>
+
+    <section class="sec">
+      <span class="label">Working team</span>
+      <h2>Who's involved</h2>
+      <div class="team">
+        <span>Product Marketing</span><span>Engineering &amp; Design</span><span>Data Analytics</span><span>Finance &amp; Payments</span><span>Legal</span><span>Host Operations</span><span>Customer Support</span>
+      </div>
+    </section>
+  </div>
+
+  <p class="foot">V1 draft for team discussion. Signals come from support reports and booking behaviour. Figures and targets are still to be validated.</p>
+</article>
