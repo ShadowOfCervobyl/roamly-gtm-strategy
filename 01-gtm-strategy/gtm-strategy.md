@@ -1,86 +1,87 @@
 # GTM Strategy · Roamly Groups
 
-> Module 1 · Deliverable 1.
+> Module 1 · Deliverable 1 · V1 draft, to be refined.
 
 ## 1. Discover Framework
 
 ### Align on the Goal
-- **Core business problem:** Users already try to book group experiences on Roamly, but the product only supports individual and small-party bookings. They work around it with separate accounts, manual split payments and off-platform coordination. Drop-off on these sessions is high, so Roamly loses bookings it has already earned and pushes its most engaged users (the trip organisers) toward other tools.
-- **What success looks like:** Group organisers can book a whole party on Roamly without leaving the product. Group sessions convert at a rate close to normal bookings. Roamly Groups adds incremental bookings and new users without hurting the core individual-booking experience, its ratings, or host quality.
+- **Core business problem:** Groups try to book experiences together on Roamly, but the product is built for individuals and small parties. To book as a group, people coordinate across separate accounts, split payments by hand and sync availability outside the product, and many drop off. Roamly loses bookings from users who already want to buy.
+- **What success looks like:** A group can go from "let's do something" to a confirmed booking, with everyone paid, inside Roamly. Measured by:
+  - more group booking sessions end in a completed booking
+  - fewer people book the same experience across separate accounts
+  - invited group members who aren't yet on Roamly become users
+  - the core individual booking experience doesn't get worse
 
 ### Do the Research
 - **Signals of a real opportunity:**
-  1. Support keeps flagging the same pattern: users coordinate group bookings across separate accounts.
-  2. Users split payments by hand, which shows they're willing to pay but blocked by the product, not uninterested.
-  3. Drop-off on these group sessions is high: demand is there and the product is the bottleneck.
-  4. Feedback is consistent: people want to do this on Roamly, not elsewhere.
-  5. Repeat booking runs at 3× the industry average, so trust exists to build on.
-  6. The 12,000+ host network across 40 cities is ready to support groups.
+  - high drop-off on group booking sessions
+  - repeated support reports of groups booking across separate accounts and splitting payments by hand
+  - consistent feedback that users want to do this on Roamly
+- **Data to validate (hypotheses, not yet confirmed):**
+  - share of booking sessions showing multi-account behaviour (several accounts, same experience, same time slot)
+  - typical group size
+  - drop-off rate for group sessions compared with individual sessions
 - **Top 5 possible segments:**
-  1. **Friend groups planning celebration trips** (birthdays, bachelor/bachelorette parties, reunions), led by one organiser
-  2. **Multi-generational family trips**, where many preferences and ages must be aligned
-  3. **Corporate teams** (offsites, team-building, client events)
-  4. **Wedding and event groups** (guests at destination weddings, conferences)
-  5. **Clubs and education groups** (university societies, alumni, special-interest clubs)
-- **How to size the opportunity:** Bottom-up, from Roamly's own data, before any market reports:
-  1. Count sessions over the last 12 months showing group behaviour (several accounts booking the same experience and slot, manual-split support tickets, abandoned multi-seat checkouts).
-  2. Multiply by average party size × average price per person to get revenue currently lost to drop-off.
-  3. Add the acquisition upside: invited group members who are not yet Roamly users.
-  4. Split the result by segment to confirm the first target is the biggest *and* best-served pool.
+  1. Friend groups (celebrations, reunions, trips together)
+  2. Families, including multi-generational trips
+  3. Couples and small parties *(already served, so not a Groups segment)*
+  4. Corporate teams (offsites, team events)
+  5. Clubs and communities (alumni, sports, interest groups)
+- **How to size the opportunity:**
+  - Start from the number of group sessions × average group size × average price per person. That gives the booking value lost today.
+  - Add the invitees who aren't yet Roamly users: the acquisition upside.
+  - Blind spot: groups that gave up before creating extra accounts don't show up in the data, so this is a minimum.
 
 ### Build a Working Team
 - **Cross-functional stakeholders:**
-  - **Product & Engineering / Design:** group booking flow, shared itinerary
-  - **Payments & Finance:** split payments, refunds, partial-payment failure
-  - **Host Operations:** host capacity and group pricing per experience
-  - **Customer Support:** source of the signal, and frontline at launch
-  - **Data & Analytics:** baseline, sizing, launch metrics
-  - **Marketing / Lifecycle:** reaching existing organisers in-product and by email
-  - **Legal & Trust and Safety:** payment terms, cancellation policy for groups, large-party safety
+  - Product Marketing: positioning, launch
+  - Engineering and Design
+  - Data Analytics: baseline, sizing, metrics
+  - Finance and Payments: split payments, payouts
+  - Legal: terms, group cancellation and refunds
+  - Host Operations: can hosts take bigger groups, and at what price
+  - Customer Support: the source of the signal and the frontline at launch
 
 ### Form Your Hypothesis
-- **Most valuable segment to target first, and why:** **Friend groups planning celebration trips, reached through the organiser.**
-  - They match the evidence: split payments and multi-account workarounds are consumer-group behaviour. Corporate groups usually pay on one invoice and wouldn't produce these signals.
-  - They're already on Roamly, so we can reach them in-product at low cost and without new sales channels.
-  - Every group booking brings non-users into the product, which builds an acquisition loop on top of the core business.
-  - They fit Roamly's strongest categories (food tours, workshops, adventures) without new supply.
-  - Corporate is the more valuable *next* segment, but it needs invoicing, account management and a sales motion. That would disrupt what works today, so it belongs to phase 2.
-- **Core value proposition:** *For the friend who always ends up organising the trip, Roamly Groups lets you book one authentic local experience for the whole party in a single flow, with everyone paying their own share and seeing the same plan, so you stop chasing people for money and start enjoying the trip.*
+- **Most valuable segment to target first, and why:** **Friend and family groups bigger than a small party, who decide together.**
+  - They already show the workaround behaviour, so the demand is proven.
+  - They're reachable inside Roamly today.
+  - Every group booking brings people who aren't on Roamly yet.
+  - The decision belongs to the **group**: where to go, whether the price is worth it, which host. The group reaches Roamly through **the organiser**, the person who starts planning and shares the link.
+  - So marketing reaches the organiser, and the product has to win the group's agreement.
+  - Corporate teams come later: they pay centrally and need a sales motion.
+- **Core value proposition:** *Plan it together, agree in one place, and everyone pays their own share. One booking for the whole group, without the chasing.*
 
 ## 2. GTM motion
-- **Chosen motion:** Product-led growth, launched to existing users first
+- **Chosen motion:** Product-led growth (PLG) only
 - **Why:**
-  - The demand already sits inside the product, so the cheapest path is to put Groups in the booking flow where organisers currently drop off.
-  - The product spreads itself: each organiser invites the rest of the party, and invitees experience Roamly before they create their own bookings.
-  - It fits a consumer price point. A sales-led motion only makes sense later, for corporate.
-  - It protects the core business: an existing-user rollout lets us control volume and host load, and catch payment edge cases before a wider launch.
+  - The demand already happens inside the product, so Groups can appear at the moment groups drop off.
+  - Every group booking spreads the product: the organiser invites the group, and the invitees use Roamly before they've signed up.
+  - The price point is consumer-level, so a sales motion isn't needed for V1.
 
 ## 3. Primary goal
-**Adoption: turn today's failed group attempts into completed group bookings.**
-Primary metric: the completion rate of group booking sessions. Target: close the gap to the standard booking completion rate within the first launch period. The exact target is set once Data has measured the current baseline.
-Guardrails: individual-booking conversion, host ratings and support ticket volume must not get worse.
+**Acquire: new Roamly users brought in through group bookings.**
+- Acquisition only happens when a group completes a booking, so group booking completion is the gate.
 
 ## 4. The assumption I'm pushing back on
-**"The product is ready and the host network can support it."**
-Leadership treats readiness as settled, but the brief's own challenge asks *whether the product is ready to serve the segment*. Readiness has to be proven per segment, not assumed:
-- **Hosts:** are hosts able and willing to take bigger parties? A food tour built for 6 may not work for 14. We need per-experience group capacity and group pricing before launch.
-- **Payments:** split payment is the core promise. What happens when one person never pays: does the whole booking fail, does the organiser cover the gap, or is the seat released?
-- **Cancellations:** a policy built for individuals does not survive partial cancellations from groups.
-
-Mitigation: a limited beta with existing organisers, in a few high-demand cities, on experiences whose hosts have opted in to groups.
+**"The organiser is the customer."**
+- The organiser organises and pays, but **the group decides**.
+- If Groups only fixes payment and not group agreement, groups will still drop off at the "do we all agree?" stage.
+- Second risk to test: readiness. Can hosts take bigger groups, and what happens if one person doesn't pay?
 
 ## 5. V1 GTM strategy one-pager
-**Roamly Groups: V1 GTM Strategy**
+
+**Roamly Groups: V1 GTM Strategy (draft)**
 
 | | |
 |---|---|
-| **Problem** | Users already try to book groups on Roamly, through separate accounts and manual payment splits, and drop off at a high rate. We lose bookings we've already earned. |
-| **Target segment** | Organisers of friend groups booking celebration trips: existing Roamly users who are already showing the behaviour. |
-| **Value proposition** | One flow to book an authentic local experience for the whole party. Everyone pays their share and sees the same plan. |
-| **GTM motion** | Product-led, existing users first. Groups shows up in the booking flow at the moment organisers currently drop off, and invitations bring in new users. |
-| **Primary goal** | Adoption: get the completion rate of group booking sessions close to the standard booking rate. |
-| **Guardrails** | No drop in individual-booking conversion, host ratings or support load. |
-| **Launch plan** | 1) Measure the baseline and size the opportunity from booking and support data. 2) Recruit hosts who opt in to groups. 3) Run a beta with existing organisers in a few high-demand cities. 4) Fix payment and cancellation edge cases. 5) Roll out to all users and cities. |
-| **Key risk / assumption tested** | That the product and hosts are ready for groups. The beta checks this before a wider launch. |
-| **Next phase** | Corporate teams: a sales-assisted motion with invoicing, once consumer Groups is proven. |
-| **Team** | Product/Eng, Payments, Host Ops, Support, Data, Marketing, Legal/Trust & Safety |
+| **Problem** | Groups try to book together on Roamly by working around the product: separate accounts, splitting payments by hand. Many drop off, and we lose bookings from users who already want to buy. |
+| **Customer** | Friend and family groups bigger than a small party. **The group decides**, and **the organiser brings it to Roamly**. |
+| **Value proposition** | Plan it together, agree in one place, and everyone pays their own share. One booking for the whole group. |
+| **Motion** | Product-led growth. |
+| **Primary goal** | Acquire new users through group invites. |
+| **Channels** | 1. **In-product, at the drop-off moment:** offer Groups when a user picks more seats than a small party, or when several accounts start booking the same slot.<br>2. **Shareable group link:** the organiser sends one link to the group chat (WhatsApp, iMessage). Invitees see the plan and their share without having to sign up first. This link is the acquisition loop.<br>3. **Lifecycle email and push:** contact users who already showed the workaround behaviour.<br>4. **Host side:** a "group-friendly" badge on experiences whose hosts have opted in.<br>5. **Support:** redirect group tickets to Groups.<br>*No paid acquisition in V1.* |
+| **Success metric** | **Main metric: invitees who aren't yet Roamly users and who pay their share (new paying users per month).**<br>**Gate: group booking completion rate**, meaning groups started that end with everyone paid.<br>**Supporting metrics:** time from first invite to fully paid, and how many people still book across separate accounts.<br>**Guardrails:** individual booking conversion, host ratings and support volume. |
+| **Rollout** | 1. Measure the baseline. 2. Recruit hosts who opt in. 3. Beta with existing users in a few cities. 4. Fix payment and agreement failures. 5. Full launch. |
+| **Biggest risk** | Groups that don't agree, or don't all pay. Test it in the beta before scaling. |
+| **Team** | Product Marketing, Engineering and Design, Data, Finance and Payments, Legal, Host Operations, Support |
