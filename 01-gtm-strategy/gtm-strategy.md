@@ -12,7 +12,8 @@
   - Users of Roamly in general
   - New users
   - Vetted local experts
-  - Friends/Family that would like to have the exprience
+  - Friends/Family that would like to have the experience
+  - Corporate teams booking offsites and team events
 - **How to size the opportunity:** Number of users that use the multiple accounts, compared to all active users of Roamly, potentially users that travel together and use Roamly.
 
 ### Build a Working Team
@@ -20,7 +21,7 @@
 
 ### Form Your Hypothesis
 - **Most valuable segment to target first, and why:** Independent travellers that would like to travel with friends, or family, or partners. Since these segments would like to share memories, and experience this is the most valuable user segment to target.
-- **Core value proposition:** Share your memories with your loved ones.
+- **Core value proposition:** Share your memories with your loved ones. *(Refined after the pressure test: "Plan it together, agree in one place, and everyone pays their own share." See section 5.)*
 
 ## 2. GTM motion
 
@@ -35,7 +36,7 @@ Acquire
 
 > **AI's point (2): the assumption you're too close to see.** That the group is your customer. It isn't. The organiser is. One person plans, chases, fronts the money and carries the stress. Everyone else is a passenger who just wants a link and a price.
 
-**My pushback:** The pishback is that okay, the person who organizes it, IS the customer but only in a way that he organizes the people, pays for the experience but the decision to go, and pick the experience and pick the guides is on the whole group not on an individual. It might be on an individual once he/she takes the organization of the trip, however, my assumption is that people need to agree in the group, where to go, if the price is suitable for the experience, etc. So the end-customer IS the group.
+**My pushback:** The pushback is that okay, the person who organizes it, IS the customer but only in a way that he organizes the people, pays for the experience but the decision to go, and pick the experience and pick the guides is on the whole group not on an individual. It might be on an individual once he/she takes the organization of the trip, however, my assumption is that people need to agree in the group, where to go, if the price is suitable for the experience, etc. So the end-customer IS the group.
 
 ## 5. V1 GTM strategy one-pager
 
