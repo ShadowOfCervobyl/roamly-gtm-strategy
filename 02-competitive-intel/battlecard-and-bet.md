@@ -3,24 +3,21 @@
 ## 1. Primary competitor
 
 - **Competitor:** Airbnb Experiences
-- **Core offering:** Who they serve: Airbnb's very large base of guests, many of whom already travel as groups because they share one stay.
+- **Core offering:** Host-led activities priced per person, the Airbnb Originals tier (exclusive, some with celebrities) and the new Services category (chefs, massages, photographers and similar), bookable on their own or alongside an Airbnb stay.
 - **How they position themselves:**
   - Relaunched in May 2025 in more than 600 cities, alongside Airbnb Services.
-  - Airbnb "Originals" experiences, some hosted by celebrities.
+  - Experiences exclusive to Airbnb, presented as part of the trip you have already booked.
   - Social features: guests can see who else is going, message the group and stay in touch afterwards.
-- **Primary audience:**
-  - They already have the group: friends who book a house together are one click from booking an activity together.
-  - They already have the payments technology. Airbnb has offered split payments for stays since 2018: up to 16 people, each with 72 hours to pay their share.
+- **Primary audience:** Airbnb's very large base of guests, many of whom already travel as groups because they share one stay.
 - **Known pricing or packaging:**
-  - Commission: historically 20% of the price, paid by the host. One current guide still says 20%, but I found no official 2025 figure. Coverage of the May 2025 relaunch only says the commission is "competitive with industry standards".
-  - How it's priced: per person, set by the host.
-  - Earlier versions also let hosts offer private group bookings at a set minimum price. I couldn't confirm that this survived the 2025 relaunch.
-  - Packaging: three tiers: standard Experiences, Airbnb Originals (exclusive, some with celebrities), and the new Services category (chefs, massages, photographers and similar). All of it can be booked on its own or alongside a stay. There's no subscription and no loyalty programme.
-  - Group payments: split payments exist for stays only: up to 16 people, 72 hours each to pay. I found no sign it covers Experiences.
+  - Commission: historically 20% of the price, paid by the host. No official figure has been published since the 2025 relaunch; coverage only calls it "competitive with industry standards".
+  - Pricing: per person, set by the host. Earlier versions let hosts offer private group bookings at a set minimum price; unconfirmed whether this continues after the relaunch.
+  - Packaging: three tiers (Experiences, Originals, Services), booked on their own or with a stay. No subscription and no loyalty programme.
+  - Group payments: split payments for stays only (up to 16 people, 72 hours each to pay). No evidence that they cover Experiences.
 - **Why they're the biggest threat:**
-  - Experiences are a side business next to stays, and the earlier version was scaled back before the 2025 relaunch.
-  - Curation depth is unproven next to Roamly's vetted host network.
-  - I found no sign that split payments extend to Experiences yet. That's your window: if Airbnb connects the two, it owns the whole group trip.
+  - They already have the group: friends who book a house together are one click from booking an activity together.
+  - They already have the payments technology: split payments for stays have run since 2018.
+  - If Airbnb extends split payments to Experiences, it owns the whole group trip: stay, activities and payment in one app.
 
 ## 2. Battlecard
 
@@ -135,12 +132,12 @@ Well, I was not thinking about Airbnb Experience which is a big player, and well
 ## 4. Strategic bet
 
 ### Data
-- **Who Roamly Groups is for:** The Roamly is for groups of people, who want to plan a group exprience, and also share the payment for that. either couples, friends, or anyone who is interested in the group experience.
+- **Who Roamly Groups is for:** The Roamly is for groups of people, who want to plan a group experience, and also share the payment for that. either friends, families, or anyone who is interested in a group experience bigger than a small party.
 - **The one thing worth choosing it for:** Vetted providers, as far as the market shows 3x higher booking rate compared to industry data, and split payments.
 - **The biggest threat to that position:** If the competition adopts split payments, or another competitor enters the market who provides similar services, but has more cities covered.
 
 ### Insight
-There is a competition like Airbnb, Viator, and GetYourGuide so the market has other players. I believe when Roamly Groups will still focus on experience meaning rather less cities but more vetted providers, and improving the group's coordinating for the bookings, and split payments it has a pretty good change to be successful.
+There is a competition like Airbnb, Viator, and GetYourGuide so the market has other players. I believe when Roamly Groups will still focus on experience meaning rather less cities but more vetted providers, and improving the group's coordinating for the bookings, and split payments it has a pretty good chance to be successful.
 
 ### Belief
 I now believe that Roamly Groups wins when it will be built for the group decision, not just payment because this is hard to bolt into a product that is designed for stays in the first part.
