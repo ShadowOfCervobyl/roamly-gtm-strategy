@@ -15,7 +15,7 @@
 For groups of friends and families planning a shared experience bigger than a small party, who want to agree on something they will all enjoy and book it without one person paying and chasing, Roamly Groups is a group booking feature that lets the whole group plan, choose and pay its own share in one place. Unlike Airbnb Experiences, Roamly Groups is built for the group decision and backed by 12,000+ vetted local hosts.
 
 ### Pressure test
-- **Test I ran:**
+- **Test I ran:** I completed this module outside the live class, so I could not pressure-test the statement with another person. Instead I ran three tests on my own:
   1. **Competitor swap:** replace "Roamly Groups" with "Airbnb Experiences" and check whether the statement is still true.
   2. **Customer language:** read the statement as the group would. Would they say these words themselves?
   3. **Barrier check:** does the statement hold up against the weakness I named (40 cities against 600+)?
