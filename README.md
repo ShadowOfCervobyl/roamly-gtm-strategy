@@ -13,7 +13,7 @@ This is a **template repo**. Click **Use this template → Create a new reposito
 | 1 | **GTM Strategy** (Discover Framework + motion + V1 one-pager) | M1 | ☑ | `01-gtm-strategy/gtm-strategy.md` |
 | 2 | **Competitive Intelligence & Strategic Bet** (battlecard) | M2 | ☑ | `02-competitive-intel/battlecard-and-bet.md` |
 | 3 | **Positioning Statement** (framework + statement) | M3 | ☑ | `03-positioning/positioning.md` |
-| 4 | **Messaging Pillars** | M4 | ☐ | `04-messaging/messaging-pillars.md` |
+| 4 | **Messaging Pillars** | M4 | ☑ | `04-messaging/messaging-pillars.md` |
 | 5 | **Pricing Recommendation** | M5 | ☐ | `05-pricing/pricing-recommendation.md` |
 | 6 | **Final Presentation** (your five deliverables + a reflection on the course) | M6 | ☐ | `final-presentation.html`, downloaded from the Final Project Deliverables Builder |
 
@@ -40,7 +40,8 @@ roamly-gtm-strategy/
 ├── 03-positioning/
 │   └── positioning.md                 ← M3: positioning framework + stmt    ★ Deliverable 3
 ├── 04-messaging/
-│   └── messaging-pillars.md           ← M4: messaging pillars + copy        ★ Deliverable 4
+│   ├── messaging-pillars.md           ← M4: messaging pillars + copy        ★ Deliverable 4
+│   └── roamly-groups-homepage-hero.jpg
 ├── 05-pricing/
 │   └── pricing-recommendation.md      ← M5: pricing model + recommendation  ★ Deliverable 5
 └── final-presentation.html            ← M6: your final presentation         ★ Deliverable 6
