@@ -25,16 +25,16 @@
 ## 4. Copy across three surfaces
 
 ### 1. Homepage headline
-**Plan a group experience everyone agrees on—without chasing payments.**
+**One experience the whole group agrees on. No money chasing after.**
 - **Leads with:** Value prop.
-- **Why:** It speaks to the organiser’s key outcomes: getting the group to agree and avoiding the money chase.
+- **Why:** Connects the shared decision directly to the organiser’s relief.
 
 ### 2. Email subject line
-**Everyone can agree on the plan—and pay their own share**
-- **Leads with:** Capabilities.
-- **Why:** It makes the shared plan and individual payment concrete, giving the organiser a clear reason to open the email.
+**Can everyone agree on the plan before you book?**
+- **Leads with:** Value prop.
+- **Why:** Names the organiser’s immediate challenge and frames the email around resolving it.
 
 ### 3. Onboarding tooltip
-**Share the plan and price per person here. Everyone can agree before booking, then pay their own share.**
-- **Leads with:** Capabilities.
-- **Why:** It explains what the organiser can do and how it helps the group decide and pay together.
+**Invite everyone to review the plan and their price. You won’t need to cover the group’s bill yourself.**
+- **Leads with:** Value prop.
+- **Why:** Reassures the organiser about the outcome while tying it to the group’s individual prices.
