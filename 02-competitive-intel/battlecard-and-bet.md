@@ -133,7 +133,7 @@ Well, I was not thinking about Airbnb Experience which is a big player, and well
 
 ### Data
 - **Who Roamly Groups is for:** The Roamly is for groups of people, who want to plan a group experience, and also share the payment for that. either friends, families, or anyone who is interested in a group experience bigger than a small party.
-- **The one thing worth choosing it for:** Vetted providers, as far as the market shows 3x higher booking rate compared to industry data, and split payments.
+- **The one thing worth choosing it for:** Vetted providers, as the market shows a 3x higher repeat booking rate compared to the industry average, and a way for the group to agree before anyone pays.
 - **The biggest threat to that position:** If the competition adopts split payments, or another competitor enters the market who provides similar services, but has more cities covered.
 
 ### Insight

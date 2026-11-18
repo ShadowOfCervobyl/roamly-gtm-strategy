@@ -12,15 +12,15 @@
 
 ## 3. Messaging pillars
 
-### Audience 1: The organiser bringing friends or family together to plan an experience in one of Roamly’s 40+ cities.
+### Audience 1: The organiser bringing friends or family together to plan an experience in one of Roamly’s 40 cities.
 - **Value prop:** Get the group from “let’s do something” to a booked experience everyone has agreed on, without having to make the choice alone or chase people for money.
 - **Capabilities:** Share the plan and price per person in one place, let everyone agree before booking, and have each person pay their own share.
-- **Evidence:** Roamly works with 12,000+ vetted local hosts. Their travellers book again at three times the industry average.
+- **Evidence:** Roamly works with 12,000+ vetted local hosts. Their travellers book again at three times the industry average. To prove in beta: group booking completion rate.
 
 ### Audience 2: Friends and family members invited to join a shared experience.
 - **Value prop:** Have a say in what the group does, know what it will cost you, and join without someone else having to cover your share upfront.
 - **Capabilities:** See the shared plan and your price, agree in the same place as the rest of the group, and pay your own share.
-- **Evidence:** The experience is delivered by one of Roamly’s 12,000+ vetted local hosts. Travellers book with Roamly hosts again at three times the industry average.
+- **Evidence:** The experience is delivered by one of Roamly’s 12,000+ vetted local hosts. Travellers book with Roamly hosts again at three times the industry average. To prove in beta: the share of invitees who pay their own share in time.
 
 ## 4. Copy across three surfaces
 

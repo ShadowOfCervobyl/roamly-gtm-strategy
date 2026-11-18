@@ -7,7 +7,7 @@
 - **What success looks like:** So first, the drop-off rates will lower, not sure if significantly, but as far as the Roamly Groups will be launched, I would expect marginal decrease in drop-off rates, decreased user count on coordinating group bookings across separate accounts, higher satisfaction with Roamly in general, positive feedback on social media, increased either adoption rate compared to other features of Roamly since I understand this is something the users want, but need to create a workaround, increased NPS of these users.
 
 ### Do the Research
-- **Signals of a real opportunity:** Signals that suggest it is increased drop-off rates for group sessions, coordinating group bookings across separate accounts, and definitely the feedback from users. Behavioral data - well, I am not sure, but I am missing the data, however, to make the conclusion based on this context, high drop-off rate, and bookings across separate accounts.
+- **Signals of a real opportunity:** Signals that suggest it is increased drop-off rates for group sessions, coordinating group bookings across separate accounts, and definitely the feedback from users. Behavioural data - well, I am not sure, but I am missing the data, however, to make the conclusion based on this context, high drop-off rate, and bookings across separate accounts.
 - **Top 5 possible segments:**
   - Users of Roamly in general
   - New users
@@ -20,7 +20,7 @@
 - **Cross-functional stakeholders:** Product Manager, Product Marketer, Finance, maybe even Legal, Data Analyst all these people to define marketing approach, market segment, marketing channels, updating the legal docs, payments, and estimate the impact on the product.
 
 ### Form Your Hypothesis
-- **Most valuable segment to target first, and why:** Independent travellers that would like to travel with friends, or family, or partners. Since these segments would like to share memories, and experience this is the most valuable user segment to target.
+- **Most valuable segment to target first, and why:** Independent travellers that would like to travel with friends, or family, or partners. Since these segments would like to share memories, and experience this is the most valuable user segment to target. *(Refined after the pressure test: friend and family groups bigger than a small party. The group decides, and the organiser brings it to Roamly. See section 5.)*
 - **Core value proposition:** Share your memories with your loved ones. *(Refined after the pressure test: "Plan it together, agree in one place, and everyone pays their own share." See section 5.)*
 
 ## 2. GTM motion
@@ -36,7 +36,7 @@ Acquire
 
 > **AI's point (2): the assumption you're too close to see.** That the group is your customer. It isn't. The organiser is. One person plans, chases, fronts the money and carries the stress. Everyone else is a passenger who just wants a link and a price.
 
-**My pushback:** The pushback is that okay, the person who organizes it, IS the customer but only in a way that he organizes the people, pays for the experience but the decision to go, and pick the experience and pick the guides is on the whole group not on an individual. It might be on an individual once he/she takes the organization of the trip, however, my assumption is that people need to agree in the group, where to go, if the price is suitable for the experience, etc. So the end-customer IS the group.
+**My pushback:** The pushback is that okay, the person who organises it, IS the customer but only in a way that he organises the people, pays for the experience but the decision to go, and pick the experience and pick the guides is on the whole group not on an individual. It might be on an individual once he/she takes the organisation of the trip, however, my assumption is that people need to agree in the group, where to go, if the price is suitable for the experience, etc. So the end-customer IS the group.
 
 ## 5. V1 GTM strategy one-pager
 
@@ -51,6 +51,7 @@ Acquire
   - Email and push to users who already used the separate-accounts workaround.
   - A "group-friendly" badge on experiences whose hosts agree to take groups.
   - Support redirects group-booking tickets to Groups.
+- **Rollout:** measure the baseline, recruit hosts who opt in to groups, run a beta with existing users in a few cities, then launch to everyone.
 - **Success metric:** new users who pay their share through a group invite.
   - It only counts when the whole group completes the booking, so group booking completion rate is tracked alongside it.
   - Guardrails: individual bookings, host ratings and support volume must not get worse.

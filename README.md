@@ -2,8 +2,6 @@
 
 > My final project for Product School's **Go-To-Market** certification. A complete go-to-market strategy for **Roamly Groups**: a new group-booking feature, built across six in-class labs, no homework required.
 
-This is a **template repo**. Click **Use this template → Create a new repository**, name it `roamly-gtm-strategy`, choose **Public**, and fill in one folder per module as you go. The Final Project Deliverables Builder reads your files straight from GitHub, which only works on a public repo. Public repos are searchable, so keep anything confidential out of it.
-
 ---
 
 ## Deliverables at a glance
@@ -19,7 +17,7 @@ This is a **template repo**. Click **Use this template → Create a new reposito
 
 ## The strategy in one sentence
 
-_What is Roamly Groups, who is it for, and what's the single GTM bet you're making?_
+Roamly Groups lets friend and family groups in Roamly's 40 cities agree on a local experience and its price in one place, with everyone paying their own share; the bet is to win on the group decision and vetted local hosts, not on split payments or city coverage.
 
 ___
 
@@ -34,7 +32,8 @@ ___
 roamly-gtm-strategy/
 ├── README.md                          ← this dashboard
 ├── 01-gtm-strategy/
-│   └── gtm-strategy.md                ← M1: Discover Framework + motion    ★ Deliverable 1
+│   ├── gtm-strategy.md                ← M1: Discover Framework + motion    ★ Deliverable 1
+│   └── v1-infographic.html            ← M1: V1 one-pager as a visual summary
 ├── 02-competitive-intel/
 │   └── battlecard-and-bet.md          ← M2: competitive battlecard + bet   ★ Deliverable 2
 ├── 03-positioning/

@@ -2,19 +2,19 @@
 
 ## 1. Pricing goal
 
-- **Goal:** Grow revenue from a known audience
+- **Goal:** Grow revenue from a known audience. This refines my Module 1 goal ("Acquire"): the battlecard showed that earning revenue from group bookings Roamly already loses is a safer first win than chasing new users against Airbnb. New users from group invites remain a side effect.
 
 ## 2. Pricing model
 
 - **Model:** Transaction-based
-- **Who pays, and for what:** Each group member pays their share, and on top the transaction fee.
+- **Who pays, and for what:** Each group member pays their share plus a transaction fee, shown together as one all-in price per person.
 
 ## 3. Packaging
 
 - **Tiers:**
-  - Entry: group booking with split payment on a standard experience
-  - Middle (the one most should pick): private experience for the group, with a shared plan and agreement tools
-  - Top: celebrations or teams, with a customised host experience, flexibility and invoicing
+  - Entry (Group): group booking with split payment on a standard experience
+  - Middle (Private Group, the one most should pick): private experience for the group, with a shared plan and agreement tools
+  - Top (Celebrations & Teams): celebrations or teams, with a customised host experience, flexibility and invoicing
 
 ## 4. Assumption to test
 
@@ -62,9 +62,9 @@ Each group member pays their own share plus a small transaction fee, shown upfro
 - **To decide before launch:** the fee level, the length of the payment window, and when hosts get paid if a group pays in parts.
 
 **Sales Leadership**
-- **The first two tiers are self-serve.** Groups and Private Groups need no sales team, which matches our product-led plan.
-- **Celebrations & Teams is where sales starts.** Invoicing and custom quotes are the bridge to corporate teams, our next segment, without building a sales motion now.
-- **Hosts are part of the sale:** private and custom tiers only work with hosts who opt in to groups. Recruiting hosts for groups is the sales job in V1.
+- **All three tiers are self-serve in V1.** No tier needs a sales team, which matches our product-led plan.
+- **Celebrations & Teams is the bridge to corporate teams, our next segment.** In V1 it stays self-serve, with invoicing and custom quotes from the host. A sales-assisted motion for corporate teams comes in a later phase.
+- **Hosts are the partnership job in V1:** private and custom tiers only work with hosts who opt in to groups, so recruiting hosts for groups is where Sales Leadership can help now.
 
 **Product Marketing**
 - **Lead with the outcome, not the fee:** "One price per person. Everyone pays their own share." The fee is part of that price, not a separate line.
