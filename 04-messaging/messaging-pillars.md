@@ -24,20 +24,9 @@
 
 ## 4. Copy across three surfaces
 
-### Homepage headline
-**One experience the whole group agrees on. No money chasing after.**
-- **Leads with:** Value prop.
-- **Why:** Connects the shared decision directly to the organiser’s relief.
-
-### Email subject line
-**Can everyone agree on the plan before you book?**
-- **Leads with:** Value prop.
-- **Why:** Names the organiser’s immediate challenge and frames the email around resolving it.
-
-### Onboarding tooltip
-**Invite everyone to review the plan and their price. You won’t need to cover the group’s bill yourself.**
-- **Leads with:** Value prop.
-- **Why:** Reassures the organiser about the outcome while tying it to the group’s individual prices.
+- **Surface 1:** Homepage headline: "One experience the whole group agrees on. No money chasing after." Leads with the value prop: connects the shared decision directly to the organiser’s relief.
+- **Surface 2:** Email subject line: "Can everyone agree on the plan before you book?" Leads with the value prop: names the organiser’s immediate challenge and frames the email around resolving it.
+- **Surface 3:** Onboarding tooltip: "Invite everyone to review the plan and their price. You won’t need to cover the group’s bill yourself." Leads with the value prop: reassures the organiser about the outcome while tying it to the group’s individual prices.
 
 ## 5. Visual asset
 

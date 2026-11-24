@@ -13,7 +13,7 @@
 | 3 | **Positioning Statement** (framework + statement) | M3 | ☑ | `03-positioning/positioning.md` |
 | 4 | **Messaging Pillars** | M4 | ☑ | `04-messaging/messaging-pillars.md` |
 | 5 | **Pricing Recommendation** | M5 | ☑ | `05-pricing/pricing-recommendation.md` |
-| 6 | **Final Presentation** (your five deliverables + a reflection on the course) | M6 | ☐ | `final-presentation.html`, downloaded from the Final Project Deliverables Builder |
+| 6 | **Final Presentation** (your five deliverables + a reflection on the course) | M6 | ☑ | `final-presentation.html`, downloaded from the Final Project Deliverables Builder |
 
 ## The strategy in one sentence
 

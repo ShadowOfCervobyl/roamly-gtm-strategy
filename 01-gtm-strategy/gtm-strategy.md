@@ -20,8 +20,8 @@
 - **Cross-functional stakeholders:** Product Manager, Product Marketer, Finance, maybe even Legal, Data Analyst all these people to define marketing approach, market segment, marketing channels, updating the legal docs, payments, and estimate the impact on the product.
 
 ### Form Your Hypothesis
-- **Most valuable segment to target first, and why:** Independent travellers that would like to travel with friends, or family, or partners. Since these segments would like to share memories, and experience this is the most valuable user segment to target. *(Refined after the pressure test: friend and family groups bigger than a small party. The group decides, and the organiser brings it to Roamly. See section 5.)*
-- **Core value proposition:** Share your memories with your loved ones. *(Refined after the pressure test: "Plan it together, agree in one place, and everyone pays their own share." See section 5.)*
+- **Most valuable segment to target first, and why:** Independent travellers that would like to travel with friends, or family, or partners. Since these segments would like to share memories, and experience this is the most valuable user segment to target. (Refined after the pressure test: friend and family groups bigger than a small party. The group decides, and the organiser brings it to Roamly. See section 5.)
+- **Core value proposition:** Share your memories with your loved ones. (Refined after the pressure test: "Plan it together, agree in one place, and everyone pays their own share." See section 5.)
 
 ## 2. GTM motion
 
